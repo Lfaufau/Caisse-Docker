@@ -13,9 +13,9 @@ public class Receipt{
 
     private long number;
 
-    private Date date;
+    private String promo;
 
-    private int totalPrice;
+    private float totalPrice;
 
   public Integer getId()
   {
@@ -27,32 +27,32 @@ public class Receipt{
     this.id = id;
   }
 
-  public String getNumber()
+  public long getNumber()
   {
     return number;
   }
 
-  public void setNumber(String number)
+  public void setNumber(long number)
   {
     this.number = number;
   }
 
-  public Date getDate()
+  public String getPromo()
   {
-    return date;
+    return promo;
   }
 
-  public void setDate(Date date)
+  public void setPromo(String promo)
   {
-    this.date = date;
+    this.promo = promo;
   }
 
-  public long getTotalPrice()
+  public float getTotalPrice()
   {
     return totalPrice;
   }
 
-  public void setTotalPrice(long totalPrice)
+  public void setTotalPrice(float totalPrice)
   {
     this.totalPrice = totalPrice;
   }
